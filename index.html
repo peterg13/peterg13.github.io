@@ -5,13 +5,16 @@
       function creepyFace(){
         document.getElementById('shrug').innerHTML='( ͡° ͜ʖ ͡°)';
       }
+      fucntion shrugFace(){
+        document.getElementById('shrug').innerHTML='¯\_(ツ)_/¯';
+      }
     </script>
     
     <link rel="stylesheet" type="text/css" href="main.css">
     
   </head>
   <body>
-    <div onmouseover="creepyFace()">
+    <div onmouseover="creepyFace()" onmouseout="shrugFace()">
       <h1 id="shrug">¯\_(ツ)_/¯</h1>
     </div>
     
