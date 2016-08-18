@@ -3,7 +3,17 @@
   <head>
     <script>
       function myFunc(){
-        document.getElementById('test').innerHTML='Goodbye, World'
+        var i = 0;
+        while(i < 1000){
+          if(i%2 == 0){
+            document.getElementById('test').color='RED';
+          }
+          else{
+            document.getElementById('test').color='BLUE';
+          }
+          i++;
+        }
+        
       }
     </script>
   </head>
