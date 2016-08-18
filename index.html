@@ -1,12 +1,16 @@
 <!doctype html>
 <html class="no-js" lang="en">
   <head>
-    
+    <script>
+      function myFunc(){
+        document.getElementById('test').innerHTML='Goodbye, World'
+      }
+    </script>
   </head>
   <body>
     <h1 id="test">Hello, world!</h1>
 
-    <button onclick="document.getElementById('test').innerHTML='Goodbye, World'"> button </button>
+    <button onclick="myFunc()"> button </button>
 
   </body>
 </html>
