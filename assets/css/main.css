@@ -163,6 +163,10 @@ a:after {
 	text-align: center;
 }
 
+#contact{
+	background: url(../img/bottom-bg.png) no-repeat center bottom;
+}
+
 
 /* MENU CONF*/
 
