@@ -7,21 +7,10 @@
  * URL: http://blacktie.co
  */
 
-.nsfw{
-	color: #cc0000;
-	font-size: 17px;
-	font-weight: bold;
-}
 
-.bottom-right-pic{
-	position: absolute;
-	right: 0;
-	bottom: 0;
-}
 
-.anime-button{
-	color: #ffffff;
-}
+
+
  
 body {
   background-color: #f2f2f2;
