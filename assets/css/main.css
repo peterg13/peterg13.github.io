@@ -1,5 +1,7 @@
 
-
+.me{
+	height: 10%;
+}
 
 .google-button{
 	height: 50%;
@@ -109,13 +111,19 @@ a:after {
 }
 
 #headerwrap h3 {
-	margin-top: 375px;
+	margin-top: 0px;
 	color: #00e6e6;
 	font-size: 50px;
 	font-weight: 100;
     font-family: 'EB Garamond', serif;
     font-style: oblique;
 }
+
+#headerwrap .me{
+	max-height: 700px;
+	margin-top: -30px;
+}
+
 /*
 #headerwrap .logo {
 	text-align: left;
